@@ -2,7 +2,7 @@
 
 Generate SVG profile cards from public Steam profile data.
 
-![Steam Card](https://steam-status-vc.vercel.app/card?steamid=76561198764174260)
+![Steam Card](https://steam-status-one.vercel.app/card?steamid=76561198764174260)
 
 ## Features
 
@@ -17,7 +17,7 @@ Generate SVG profile cards from public Steam profile data.
 Replace `YOUR_STEAM_ID_64` with your Steam64 ID:
 
 ```markdown
-![Steam Card](https://steam-status-vc.vercel.app/card?steamid=YOUR_STEAM_ID_64)
+![Steam Card](https://steam-status-one.vercel.app/card?steamid=YOUR_STEAM_ID_64)
 ```
 
 ## Find Your Steam ID
@@ -61,7 +61,7 @@ Returns SVG profile card.
 
 **Example:**
 ```
-https://steam-status-vc.vercel.app/card?steamid=76561198764174260
+https://steam-status-one.vercel.app/card?steamid=76561198764174260
 ```
 
 ## Requirements
