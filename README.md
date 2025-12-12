@@ -2,7 +2,7 @@
 
 Generate SVG profile cards from public Steam profile data.
 
-![Steam Card](https://steam-status-one.vercel.app/card?steamid=76561198764174260)
+<img src="https://steam-status-one.vercel.app/card?steamid=76561198764174260" width="300">
 
 ## Features
 
@@ -26,7 +26,6 @@ Replace `YOUR_STEAM_ID_64` with your Steam64 ID:
 2. Enter your Steam profile URL
 3. Copy your steamID64 (17-digit number)
 
-Example: `76561198764174260`
 
 ## Installation
 
