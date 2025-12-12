@@ -15,7 +15,7 @@ export function generateSVG({ name, avatar, games }) {
     .map((game, index) => {
       const yOffset = index * 70;
       const imageTag = game.logo 
-        ? `<image href="${game.logo}" x="25" y="5" height="50" width="170" preserveAspectRatio="xMidYMid meet"/>`
+        ? `<image xlink:href="${game.logo}" x="25" y="5" height="50" width="170" preserveAspectRatio="xMidYMid meet"/>`
         : '';
       return `
       <g transform="translate(0, ${yOffset})">
@@ -46,7 +46,7 @@ export function generateSVG({ name, avatar, games }) {
   
   <g>
     <circle cx="60" cy="60" r="48" fill="#66c0f4" opacity="0.3"/>
-    ${avatar ? `<image href="${avatar}" x="15" y="15" width="90" height="90" clip-path="url(#avatarMask)"/>` : ''}
+    ${avatar ? `<image xlink:href="${avatar}" x="15" y="15" width="90" height="90" clip-path="url(#avatarMask)"/>` : ''}
     
     <text x="130" y="55" font-size="28" fill="#fff" font-weight="bold" font-family="Arial, sans-serif">${escapeXml(name)}</text>
     <text x="130" y="80" font-size="16" fill="#66c0f4" font-family="Arial, sans-serif">Top Played Games</text>
