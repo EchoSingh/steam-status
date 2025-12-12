@@ -14,9 +14,9 @@ Generate beautiful SVG profile cards from your public Steam profile data. Displa
 
 ## 🖼️ Preview
 
-Once deployed, your card will look like this:
+Your card is live at:
 
-![Steam Card](https://your-domain.vercel.app/card?steamid=76561198764174260)
+![Steam Card](https://steam-status-vc.vercel.app/card?steamid=76561198764174260)
 
 > **Note:** Anyone can use this service! Just replace the `steamid` parameter with your own Steam64 ID.
 
@@ -71,19 +71,19 @@ The 17-digit number in the URL is your Steam64 ID!
 
 **Example with actual Steam ID:**
 ```markdown
-![Steam Card](https://your-domain.vercel.app/card?steamid=76561198764174260)
+![Steam Card](https://steam-status-vc.vercel.app/card?steamid=76561198764174260)
 ```
 
 **Use with your own Steam ID:**
 ```markdown
-![Steam Card](https://your-domain.vercel.app/card?steamid=YOUR_STEAM_ID_64)
+![Steam Card](https://steam-status-vc.vercel.app/card?steamid=YOUR_STEAM_ID_64)
 ```
 
 ### HTML
 
 ```html
 <!-- Replace with your Steam ID -->
-<img src="https://your-domain.vercel.app/card?steamid=YOUR_STEAM_ID_64" alt="Steam Card">
+<img src="https://steam-status-vc.vercel.app/card?steamid=YOUR_STEAM_ID_64" alt="Steam Card">
 ```
 
 ## 🌐 Deployment
@@ -112,7 +112,12 @@ The 17-digit number in the URL is your Steam64 ID!
 
 3. **Use your card:**
    ```markdown
-   ![Steam Card](https://your-project.vercel.app/card?steamid=YOUR_STEAM_ID)
+   ![Steam Card](https://steam-status-vc.vercel.app/card?steamid=YOUR_STEAM_ID)
+   ```
+
+   **Live Example:**
+   ```markdown
+   ![Steam Card](https://steam-status-vc.vercel.app/card?steamid=76561198764174260)
    ```
 
 📖 **Full deployment guide:** See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions.

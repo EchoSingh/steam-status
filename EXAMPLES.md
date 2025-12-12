@@ -6,12 +6,14 @@ This guide shows how anyone can use the Steam Status Card service.
 
 Once this service is deployed, anyone can use it by simply adding an image tag to their GitHub README or website.
 
+**🌐 Live Service URL:** `https://steam-status-vc.vercel.app`
+
 ### Example 1: GitHub README
 
 ```markdown
 ## My Steam Profile
 
-![My Steam Card](https://steam-status-your-domain.vercel.app/card?steamid=76561198764174260)
+![My Steam Card](https://steam-status-vc.vercel.app/card?steamid=76561198764174260)
 ```
 
 ### Example 2: Multiple Players
@@ -20,10 +22,10 @@ Once this service is deployed, anyone can use it by simply adding an image tag t
 ## Our Gaming Team
 
 ### Player 1 - rayo_asr
-![Steam Card](https://steam-status-your-domain.vercel.app/card?steamid=76561198764174260)
+![Steam Card](https://steam-status-vc.vercel.app/card?steamid=76561198764174260)
 
 ### Player 2
-![Steam Card](https://steam-status-your-domain.vercel.app/card?steamid=YOUR_STEAM_ID_HERE)
+![Steam Card](https://steam-status-vc.vercel.app/card?steamid=YOUR_STEAM_ID_HERE)
 ```
 
 ### Example 3: In HTML
@@ -31,7 +33,7 @@ Once this service is deployed, anyone can use it by simply adding an image tag t
 ```html
 <div>
   <h2>My Gaming Profile</h2>
-  <img src="https://steam-status-your-domain.vercel.app/card?steamid=76561198764174260" 
+  <img src="https://steam-status-vc.vercel.app/card?steamid=76561198764174260" 
        alt="Steam Profile Card" />
 </div>
 ```
@@ -39,7 +41,7 @@ Once this service is deployed, anyone can use it by simply adding an image tag t
 ### Example 4: With Link to Steam Profile
 
 ```markdown
-[![Steam Profile](https://steam-status-your-domain.vercel.app/card?steamid=76561198764174260)](https://steamcommunity.com/profiles/76561198764174260)
+[![Steam Profile](https://steam-status-vc.vercel.app/card?steamid=76561198764174260)](https://steamcommunity.com/profiles/76561198764174260)
 ```
 
 Click the card to visit the Steam profile!
@@ -85,7 +87,7 @@ The first line shows your Steam64 ID:
 
 **Usage:**
 ```markdown
-![rayo_asr's Steam Profile](https://your-domain.vercel.app/card?steamid=76561198764174260)
+![rayo_asr's Steam Profile](https://steam-status-vc.vercel.app/card?steamid=76561198764174260)
 ```
 
 ## ⚙️ Advanced Usage
@@ -95,12 +97,12 @@ The first line shows your Steam64 ID:
 Add a timestamp to always fetch fresh data:
 
 ```markdown
-![Steam Card](https://your-domain.vercel.app/card?steamid=76561198764174260&t=TIMESTAMP)
+![Steam Card](https://steam-status-vc.vercel.app/card?steamid=76561198764174260&t=TIMESTAMP)
 ```
 
 Or use this in your README to auto-refresh:
 ```html
-<img src="https://your-domain.vercel.app/card?steamid=76561198764174260" alt="Steam Card">
+<img src="https://steam-status-vc.vercel.app/card?steamid=76561198764174260" alt="Steam Card">
 <!-- The card refreshes automatically every hour -->
 ```
 
@@ -110,8 +112,8 @@ You can test the service with any public Steam profile:
 
 ```bash
 # Test in browser
-https://your-domain.vercel.app/card?steamid=76561198764174260
-https://your-domain.vercel.app/card?steamid=76561197960435530  # Gabe Newell
+https://steam-status-vc.vercel.app/card?steamid=76561198764174260
+https://steam-status-vc.vercel.app/card?steamid=76561197960435530  # Gabe Newell
 ```
 
 ## 🔒 Privacy Requirements
